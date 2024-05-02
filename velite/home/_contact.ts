@@ -10,5 +10,11 @@ export const homeContact = {
     button: s.string(),
     action: s.string(),
     method: s.string(),
+    hiddenFields: s.array(
+      s.object({
+        name: s.string(),
+        value: s.string(),
+      })
+    ),
   }),
 };

@@ -9,6 +9,7 @@ export default function Contact({
   button,
   action,
   method,
+  hiddenFields,
   ...props
 }: ContactProps) {
   return (
@@ -34,6 +35,14 @@ export default function Contact({
             action={action}
             method={method}
           >
+            {hiddenFields.map((item, index) => (
+              <input
+                key={index}
+                type="hidden"
+                name={item.name}
+                value={item.value}
+              />
+            ))}
             <div className="mb-[1rem]">
               <input
                 type="email"

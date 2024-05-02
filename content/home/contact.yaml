@@ -6,3 +6,4 @@ text: >
 button: "Send Message"
 action: "#"
 method: "POST"
+hiddenFields: []

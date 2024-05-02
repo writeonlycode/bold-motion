@@ -1,3 +1,5 @@
+![](https://github.com/writeonlycode/bold-motion/blob/main/screenshots/bold-motion-thumbnail.png?raw=true)
+
 Bold Motion is a sleek Next.JS portfolio website designed to showcase
 creativity with elegance and efficiency. Featuring discrete animations that
 infuse movement throughout the site, Bold Motion offers a seamless user

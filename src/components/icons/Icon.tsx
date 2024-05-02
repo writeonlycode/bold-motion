@@ -10,6 +10,9 @@ export default function Icon({ icon, className, ...props }: IconProps) {
     case "facebook":
       const Facebook = dynamic(() => import("../icons/_Facebook"));
       return <Facebook className={className} />;
+    case "github":
+      const GitHub = dynamic(() => import("../icons/_GitHub"));
+      return <GitHub className={className} />;
     case "twitter":
       const Twitter = dynamic(() => import("../icons/_TwitterX"));
       return <Twitter className={className} />;
@@ -17,6 +20,5 @@ export default function Icon({ icon, className, ...props }: IconProps) {
       const Component = dynamic(() => import("../icons/_TwitterX"));
       return <Component className={className} />;
   }
-
-  return null;
 }
+

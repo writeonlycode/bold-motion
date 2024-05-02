@@ -47,6 +47,7 @@ export default function Contact({
               <input
                 type="email"
                 placeholder="your@email.com"
+                name="email"
                 required
                 className="w-full p-[1rem] rounded text-black font-bebas-neue text-[2rem]"
               />
@@ -55,6 +56,7 @@ export default function Contact({
               <input
                 type="name"
                 placeholder="Your Name"
+                name="name"
                 required
                 className="w-full p-[1rem] rounded text-black font-bebas-neue text-[2rem]"
               />
@@ -64,6 +66,7 @@ export default function Contact({
                 rows={10}
                 required
                 placeholder="Your Message"
+                name="message"
                 className="w-full p-[1rem] rounded text-black font-bebas-neue text-[1.4rem]"
               />
             </div>

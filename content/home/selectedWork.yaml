@@ -1,0 +1,20 @@
+title: "Lorem Ipsum"
+subtitle: >
+  Lorem Ipsum Dolor magnam corrupti ratione explicabo est Sunt animi tenetur
+  perferendis corrupti fugit Vero dignissimos eum amet dolor debitis
+  necessitatibus fugiat.
+items:
+  - image: "../uploads/bold-motion-thumbnail.png"
+    title: "Lorem"
+    description: >
+      Lorem Ipsum Dolor magnam corrupti ratione explicabo est Sunt animi tenetur
+      perferendis corrupti fugit Vero dignissimos eum amet dolor debitis
+    href: "#"
+
+  - image: "../uploads/c-d-x-PDX_a_82obo-unsplash.jpg"
+    title: "Dolor Magman"
+    description: >
+      Lorem Ipsum Dolor magnam corrupti ratione explicabo est Sunt animi tenetur
+      perferendis corrupti fugit Vero dignissimos eum amet dolor debitis
+    href: "#"
+
